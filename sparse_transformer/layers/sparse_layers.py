@@ -21,7 +21,7 @@ from __future__ import print_function
 import functools
 
 from tensor2tensor.layers import common_layers
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 from state_of_sparsity.sparse_transformer.layers import common_sparse
 

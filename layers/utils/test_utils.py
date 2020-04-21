@@ -22,7 +22,7 @@ import functools
 
 import absl.testing.parameterized as parameterized
 import numpy as np
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 
 class TestCase(parameterized.TestCase, tf.test.TestCase):

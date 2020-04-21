@@ -18,7 +18,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 from state_of_sparsity.layers.utils import rnn_checks
 from state_of_sparsity.layers.variational_dropout import common
 from tensorflow.python.framework import ops  # pylint: disable=g-direct-tensorflow-import
